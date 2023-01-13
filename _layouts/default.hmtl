@@ -22,7 +22,12 @@
 
 <body>
     <div id="header">
-
+        <style>
+            div {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+        </style>
         <h1>
             <font size="+10">
                 <center>Dota Stalker </center>
@@ -33,6 +38,7 @@
     <div class="wrapper">
         <section>
             <div id="title">
+                <br>
                 <p>This Discord bot provides an easy way to track your friends and stay up to data on their latest
                     games. Additionally, there are a variety of statistics available. This bot can only track players
                     with a public profile.
