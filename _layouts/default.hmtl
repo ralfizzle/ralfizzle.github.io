@@ -50,9 +50,10 @@
                     games. Additionally, there are a variety of statistics available. This bot can only track players
                     with a public profile.
                 </p>
+                <center><h2>Click To Add</h2></center>
                 <center><a
                         href="https://discord.com/api/oauth2/authorize?client_id=291447176536522753&permissions=2147535936&scope=bot%20applications.commands"><img
-                            src="images/ds_add_bot.png" width="50%"></a></center>
+                            src="images/ds_512.png" width="40%"></a></center>
             </div>
 
             <h2>Dota Feed</h2>
@@ -104,11 +105,10 @@
 
 
             <hr>
-            <b>Note: This bot is still actively being developed.</b>
-            <br>
 
-            <span class="credits left">Suggestions or Feedback:<a href="mailto:dota.stalker.dev@gmail.com">
-                    dota.stalker.dev@gmail.com</a></span>
+
+            <span class="credits left">Suggestions or Feedback:<a href="mailto:dota.sentry.dev@gmail.com">
+                    dota.sentry.dev@gmail.com</a></span>
             {{ content }}
 
         </section>
