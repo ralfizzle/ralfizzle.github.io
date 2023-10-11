@@ -2,118 +2,114 @@
 <html lang="{{ site.lang | default: " en-US" }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
+	{% if jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
 
-    {% seo %}
+	{% seo %}
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+	<!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
+	<!--[if lt IE 8]>
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    {% include head-custom.html %}
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	{% include head-custom.html %}
 
 
 </head>
 
 <body>
-    <div id="header">
-        <style>
-            div {
-                padding-top: 15px;
-                padding-bottom: 15px;
-            }
-        </style>
-        <h1>
-            <font size="+10">
-                <center>Dota 2 Discord Bot - Sentry</center>
-            </font>
-        </h1>
-    </div><!-- end header -->
+	<div class="wrapper">
+		<section>
+			<h1>
+				<font size="+10">
+					<center>Dota Sentry</center>
+				</font>
+			</h1>
+			<h2>
+				<center>Discord Bot</center>
+			</h2>
+			<br>
 
-    <div class="wrapper">
-        <section>
-            <div id="title">
-                <br>
-                <p>This Discord bot provides an easy way to track your friends and stay up to date on their latest
-                    games. Additionally, there are a variety of statistics available. This bot can only track players
-                    with a public profile.
-                </p>
-                <center><h2>Click To Add</h2></center>
-                <center><a
-                        href="https://discord.com/api/oauth2/authorize?client_id=291447176536522753&permissions=2147535936&scope=bot%20applications.commands"><img
-                            src="images/ds_512.png" width="40%"></a></center>
-            </div>
+			<center><a href="https://discord.com/api/oauth2/authorize?client_id=291447176536522753&permissions=2147535936&scope=bot%20applications.commands"><img src="images/ds_512.png" width="40%"></a></center>
+			<center>
+				<h3>Click To Add</h3>
+			</center>
 
-            <h2>Dota Feed</h2>
-            <p>Players can be registered with the bot in a channel and new game results will be posted when finished.
-            <p>
-                <center><img src="images/ds_feed.png"></center>
-                <br>
+			<div id="title">
+				<br>
+				<p>This Discord bot provides an easy way to track your friends and stay up to date on their latest Dota
+					games. Additionally, there are a variety of statistics available. This bot can only track players
+					with a public profile.
+				</p>
+			</div>
 
-            <h2>Stats</h2>
-            <p>Get daily, weekly, monthly, or yearly stats! For now these reset at 6AM EST on their respective day.
-            <p>
-                <center><img src="images/ds_day_week.png"></center>
-                <br>
-            <h2>Streaks</h2>
-            <p>Shows a list of streaks for players active in the last 15 days.
-            <p>
-                <center><img src="images/ds_streaks.png"></center>
-                <br>
-            <h2>Registering a Player</h2>
-            <p>Players can be registered with the bot using their 32 bit steam account id, which can most easily be
-                found using Dotabuff.
-            <p>
-                <center><img src="images/ds_register.png"></center>
-                <br>
+			<h2>Dota Feed</h2>
+			<p>Players can be registered with the bot in a channel and new game results will be posted when finished.
+			<p>
+				<center><img src="images/ds_feed.png"></center>
+				<br>
 
-                Currently, a Discord User can add up to 3 players and a Discord Server can
-                register up to 10. (This is subject to change as the bot is load tested)
-                <br>
-                <br>
-            <h2>Donations</h2>
-            All donations are appreciated but not required.
-            <br>
-            <br>
-            <center>
-                <h3>Monero</h3>
-            </center>
+			<h2>Stats</h2>
+			<p>Get daily, weekly, monthly, or yearly stats! For now these reset at 6AM EST on their respective day.
+			<p>
+				<center><img src="images/ds_day_week.png"></center>
+				<br>
+			<h2>Streaks</h2>
+			<p>Shows a list of streaks for players active in the last 15 days.
+			<p>
+				<center><img src="images/ds_streaks.png"></center>
+				<br>
+			<h2>Registering a Player</h2>
+			<p>Players can be registered with the bot using their 32 bit steam account id, which can most easily be
+				found using Dotabuff.
+			<p>
+				<center><img src="images/ds_register.png"></center>
+				<br>
 
-            <center><img src="images/ds_monero.png"></center>
+				Currently, a Discord User can add up to 3 players and a Discord Server can
+				register up to 10. (This is subject to change as the bot is load tested)
+				<br>
+				<br>
+			<h2>Donations</h2>
+			All donations are appreciated but not required.
+			<br>
+			<br>
+			<center>
+				<h3>Monero</h3>
+			</center>
 
-            <br>
-            <br>
-            <center>
-                <h3>Venmo</h3>
-            </center>
-            <center><img src="images/ds_venmo.png" width="30%"></center>
+			<center><img src="images/ds_monero.png"></center>
 
-            <br>
-            <br>
+			<br>
+			<br>
+			<center>
+				<h3>Venmo</h3>
+			</center>
+			<center><img src="images/ds_venmo.png" width="30%"></center>
+
+			<br>
+			<br>
 
 
-            <hr>
+			<hr>
 
 
-            <span class="credits left">Suggestions or Feedback:<a href="mailto:dota.sentry.dev@gmail.com">
-                    dota.sentry.dev@gmail.com</a></span>
-            {{ content }}
+			<span class="credits left">Suggestions or Feedback:<a href="mailto:dota.sentry.dev@gmail.com">
+					dota.sentry.dev@gmail.com</a></span>
+			{{ content }}
 
-        </section>
+		</section>
 
-    </div>
+	</div>
 </body>
 
 </html>
