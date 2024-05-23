@@ -55,6 +55,9 @@
 			<h2>Dota Feed</h2>
 			<p>Players can be registered with the bot in a channel and new game results will be posted when finished.
 			<p>
+                <center>Enable game summary image with admin command <code>/beta-features on</code></center>
+                <center><img src="images/ds_beta_feed.png"></center>
+                <center>Default game summary message</center>
 				<center><img src="images/ds_feed.png"></center>
 				<br>
 
