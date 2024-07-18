@@ -12,7 +12,8 @@
 	{% seo %}
 
 	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 	<script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
 	<!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,7 +40,9 @@
 			</h2>
 			<br>
 
-			<center><a href="https://discord.com/api/oauth2/authorize?client_id=291447176536522753&permissions=2147535936&scope=bot%20applications.commands"><img src="images/ds_512.png" width="40%"></a></center>
+			<center><a
+					href="https://discord.com/api/oauth2/authorize?client_id=291447176536522753&permissions=2147535936&scope=bot%20applications.commands"><img
+						src="images/ds_512.png" width="40%"></a></center>
 			<center>
 				<h3>Click To Add</h3>
 			</center>
@@ -55,16 +58,22 @@
 			<h2>Dota Feed</h2>
 			<p>Players can be registered with the bot in a channel and new game results will be posted when finished.
 			<p>
-                <center>Enable game summary image with admin command <code>/beta-features on</code></center>
-                <center><img src="images/ds_beta_feed.png"></center>
-                <center>Default game summary message</center>
+				<center>Enable game summary image with admin command <code>/beta-features on</code></center>
+				<center><img src="images/ds_beta_feed.png"></center>
+				<center>Default game summary message</center>
 				<center><img src="images/ds_feed.png"></center>
 				<br>
 
 			<h2>Stats</h2>
 			<p>Get daily, weekly, monthly, or yearly stats! For now these reset at 6AM EST on their respective day.
 			<p>
-				<center><img src="images/ds_day_week.png"></center>
+				<center><img src="images/ds_week.png"></center>
+				<br>
+
+			<h2>Top</h2>
+			<p>Show top ranked players for day, week, month, or year!
+			<p>
+				<center><img src="images/ds_top_week.png"></center>
 				<br>
 			<h2>Streaks</h2>
 			<p>Shows a list of streaks for players active in the last 15 days.
