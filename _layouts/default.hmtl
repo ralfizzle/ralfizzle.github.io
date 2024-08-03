@@ -81,9 +81,11 @@
 				<center><img src="images/ds_streaks.png"></center>
 				<br>
 			<h2>Registering a Player</h2>
-			<p>Players can be registered with the bot using their 32 bit steam account id, which can most easily be
-				found using Dotabuff.
+			<p>Players can be registered with the bot using their 32 bit steam account id, which can be easily
+				found using Dotabuff or copying the Friend ID from a user's profile in Dota 2.
 			<p>
+				<center><img src="images/dota_id.png"></center>
+				<br>
 				<center><img src="images/ds_register.png"></center>
 				<br>
 
