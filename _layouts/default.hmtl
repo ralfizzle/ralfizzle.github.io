@@ -41,7 +41,7 @@
 			<br>
 
 			<center><a
-					href="https://discord.com/api/oauth2/authorize?client_id=291447176536522753&permissions=2147535936&scope=bot%20applications.commands"><img
+					href="https://discord.com/oauth2/authorize?client_id=291447176536522753"><img
 						src="images/ds_512.png" width="40%"></a></center>
 			<center>
 				<h3>Click To Add</h3>
