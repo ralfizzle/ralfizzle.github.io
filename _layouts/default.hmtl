@@ -70,16 +70,30 @@
 				<center><img src="images/ds_week.png"></center>
 				<br>
 
+			<h2>Player Stats</h2>
+			<p>Get individual players stats for anyone registered in the channel.
+			<p>
+				<center><img src="images/ds_player_stats.png"></center>
+				<br>
+
 			<h2>Top</h2>
 			<p>Show top ranked players for day, week, month, or year!
 			<p>
 				<center><img src="images/ds_top_week.png"></center>
 				<br>
+
 			<h2>Streaks</h2>
 			<p>Shows a list of streaks for players active in the last 15 days.
 			<p>
 				<center><img src="images/ds_streaks.png"></center>
 				<br>
+
+			<h2>KDA</h2>
+			<p>Shows the KDA for players active in the last 15 days.
+			<p>
+				<center><img src="images/ds_kda.png"></center>
+				<br>
+
 			<h2>Registering a Player</h2>
 			<p>Players can be registered with the bot using their 32 bit steam account id, which can be easily
 				found using Dotabuff or copying the Friend ID from a user's profile in Dota 2.
