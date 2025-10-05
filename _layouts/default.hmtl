@@ -104,9 +104,15 @@
 				<br>
 
 				Currently, a Discord User can add up to 3 players and a Discord Server can
-				register up to 10. (This is subject to change as the bot is load tested)
+				register up to 10. Visit the store in discord to get more player slots!
 				<br>
+
+			<h2>Store</h2>
+			<p>Click on the bot icon in discord to find the store. Here you can access more player slots.
+			<p>
+				<center><img src="images/ds_store.png"></center>
 				<br>
+
 			<h2>Donations</h2>
 			All donations are appreciated but not required.
 			<br>
